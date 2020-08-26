@@ -2,32 +2,34 @@ import React from "react";
 
 function Navbar() {
    return (
-    <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-    <div className="container">
-      <a className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="*">Start Bootstrap</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarResponsive">
-        <ul className="navbar-nav mx-auto">
-          <li className="nav-item active px-lg-4">
-            <a className="nav-link text-uppercase text-expanded" href="index.html">Home
-              <span className="sr-only">(current)</span>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div className="container">
+        <a className="navbar-brand" href="/">
+              <img src="http://placehold.it/150x50?text=Logo" alt=""></img>
             </a>
-          </li>
-          <li className="nav-item px-lg-4">
-            <a className="nav-link text-uppercase text-expanded" href="about.html">About</a>
-          </li>
-          <li className="nav-item px-lg-4">
-            <a className="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-          </li>
-          <li className="nav-item px-lg-4">
-            <a className="nav-link text-uppercase text-expanded" href="store.html">Store</a>
-          </li>
-        </ul>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">Home
+                    <span className="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">Services</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
    )
 }
 

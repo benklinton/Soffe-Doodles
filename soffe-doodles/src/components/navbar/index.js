@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Navbar() {
    return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-custom static-top">
       <div className="container">
         <a className="navbar-brand" href="/">
               <img src="http://placehold.it/150x50?text=Logo" alt=""></img>

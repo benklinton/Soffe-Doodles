@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from "./components/navbar"
-import Heading from "./components/heading"
+import Navbar from "./components/navbar";
 function App() {
   return (
     <div>
-      <Heading/>
       <Navbar/>
     </div>
   );

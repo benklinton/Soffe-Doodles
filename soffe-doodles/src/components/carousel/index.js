@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Carousel from 'react-bootstrap/Carousel'
-function Circus() {
+function Slides() {
     return (
       <Carousel>
   <Carousel.Item>
@@ -43,4 +43,4 @@ function Circus() {
     );
 };
 
-export default Circus;
+export default Slides;

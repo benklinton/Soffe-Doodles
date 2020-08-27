@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from "./components/navbar";
-import Circus from "./components/carousel";
+import Slides from "./components/carousel";
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Circus/>
+      <Slides/>
     </div>
   );
 }

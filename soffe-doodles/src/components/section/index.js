@@ -3,7 +3,7 @@ import './style.css';
 
 function Section() {
     return (
-        <section className="py-5">
+        <div className="py-5">
         <div className="container col-md-8 mb-5 mt-5">
             <div className="row">
                 <h1 className="font-style-1">Who We Are:</h1>
@@ -27,7 +27,10 @@ function Section() {
             (due to covid, we will not be able to have visitors.)
             </p>
         </div>
-    </section>
+        <div className="section-align">
+            <img alt="" src='https://via.placeholder.com/100x100'></img>
+        </div>
+    </div>
     )
 }
 

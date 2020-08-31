@@ -4,6 +4,7 @@ import Slides from "./components/carousel";
 import Section from "./components/section";
 import Cards from "./components/cards";
 import Testimonial from "./components/testimonial";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Section/>
       <Cards/>
       <Testimonial/>
+      <Footer/>
     </div>
   );
 }

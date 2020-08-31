@@ -2,11 +2,13 @@ import React from "react";
 import './style.css';
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 function Cards() {
     return (
-        <div className="container">
-            <div className="row">
+        <Container>
+            <Row>
                 <Card className="card-style">
                     <Card.Img variant="top" src="https://via.placeholder.com/200x200" />
                     <Card.Body>
@@ -42,8 +44,8 @@ function Cards() {
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 }
 

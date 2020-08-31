@@ -4,3 +4,15 @@
     margin-bottom: 100px;
     height: 500px;
 }
+
+.container-style {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: orchid;
+    color: white;
+    margin-left: 150px;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    margin-top: 8rem;
+}

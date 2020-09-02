@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Soffe-Doodles/static/css/main.c522143f.chunk.css",
+    "main.js": "/Soffe-Doodles/static/js/main.f3ec415c.chunk.js",
+    "main.js.map": "/Soffe-Doodles/static/js/main.f3ec415c.chunk.js.map",
+    "runtime-main.js": "/Soffe-Doodles/static/js/runtime-main.9e859763.js",
+    "runtime-main.js.map": "/Soffe-Doodles/static/js/runtime-main.9e859763.js.map",
+    "static/js/2.43c1b522.chunk.js": "/Soffe-Doodles/static/js/2.43c1b522.chunk.js",
+    "static/js/2.43c1b522.chunk.js.map": "/Soffe-Doodles/static/js/2.43c1b522.chunk.js.map",
+    "index.html": "/Soffe-Doodles/index.html",
+    "precache-manifest.7049b7290645cbfc3489a7a0baf01b39.js": "/Soffe-Doodles/precache-manifest.7049b7290645cbfc3489a7a0baf01b39.js",
+    "service-worker.js": "/Soffe-Doodles/service-worker.js",
+    "static/css/main.c522143f.chunk.css.map": "/Soffe-Doodles/static/css/main.c522143f.chunk.css.map",
+    "static/js/2.43c1b522.chunk.js.LICENSE.txt": "/Soffe-Doodles/static/js/2.43c1b522.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e859763.js",
+    "static/js/2.43c1b522.chunk.js",
+    "static/css/main.c522143f.chunk.css",
+    "static/js/main.f3ec415c.chunk.js"
+  ]
+}

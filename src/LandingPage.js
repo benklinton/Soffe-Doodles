@@ -8,7 +8,7 @@ import SocialMedia from "./components/social media";
 import Footer from "./components/footer";
 
 
-function App() {
+function LandingPage() {
   return (
     <div>
       <Navbar/>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;

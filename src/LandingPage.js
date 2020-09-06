@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "./components/navbar";
+import Navigation from "./components/navbar";
 import Slides from "./components/carousel";
 import Section from "./components/section";
 import Cards from "./components/cards";
@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 function LandingPage() {
   return (
     <div>
-      <Navbar/>
+      <Navigation/>
       <Slides/>
       <Section/>
       <Cards/>

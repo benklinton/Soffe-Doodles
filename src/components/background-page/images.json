@@ -1,26 +1,29 @@
 [
     {
-        "img": "./Dogs-1.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-2.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-3.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-4.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dog-5.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-6.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-7.jpg"
+        "img": "https://via.placeholder.com/250x250" 
     },
     {
-        "img": "./Dogs-8.jpg"
+        "img": "https://via.placeholder.com/250x250" 
+    },
+    {
+        "img":"https://via.placeholder.com/250x250"
     }
 ]

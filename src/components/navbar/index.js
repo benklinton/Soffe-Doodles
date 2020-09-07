@@ -3,6 +3,7 @@ import "./style.css";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import  { Link } from 'react-router-dom';
 
 function Navigation() {
    return (
@@ -19,7 +20,7 @@ function Navigation() {
                   </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/">About</Nav.Link>
+              <Nav.Link to="/about">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="/">Services</Nav.Link>

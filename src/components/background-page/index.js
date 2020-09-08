@@ -14,9 +14,9 @@ class BackgroundPage extends Component {
   render() {
     return (
       <Container>
-        <div class="card border-0 shadow my-5">
-          <div class="card-body p-5">
-            <h1 class="font-weight-light">Dog Gallery</h1>
+        <div className="card border-0 shadow my-5">
+          <div className="card-body p-5">
+            <h1 className="font-weight-light">Dog Gallery</h1>
             <div>
               {this.state.data.map(item => (
                 <ImageCard

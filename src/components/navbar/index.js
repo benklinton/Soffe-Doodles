@@ -14,9 +14,8 @@ function Navigation() {
         </Navbar.Brand>
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="ml-auto">
-            <Nav.Item className="active">
+            <Nav.Item>
               <Nav.Link href="/">Home
-                    <span className="sr-only">(current)</span>
               </Nav.Link>
             </Nav.Item>
             <Router>
@@ -24,10 +23,10 @@ function Navigation() {
              <Nav.Link href ='/gallery'>Gallery</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/test">Services</Nav.Link>
+              <Nav.Link href="">TBD</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/">Contact</Nav.Link>
+              <Nav.Link href="">TBD</Nav.Link>
             </Nav.Item>
             </Router>
           </Nav>

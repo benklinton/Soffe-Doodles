@@ -8,6 +8,7 @@ function App() {
         <div>
             <Router>
                 <Switch>
+                    <Route exact path = '/Soffe-Doodles' component={Home}/>
                     <Route exact path = '/' component={Home}/>
                     <Route path = '/gallery' component={Gallery}/>
                 </Switch>

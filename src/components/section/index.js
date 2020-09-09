@@ -15,7 +15,7 @@ function Section() {
                     If you are loooking for an outstanding puddy and its important to buy from a responisble breeder, you have come to the right place
             </p>
                     <div className="img-style">
-                        <img src="http://placehold.it/900x300" alt=""></img>
+                        <img src="http://placehold.it/900x300" className= "img-style" alt=""></img>
                     </div>
 
                 </div>

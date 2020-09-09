@@ -1,5 +1,3 @@
-.card-style {
-    width: 18rem;
-    margin-left: auto;
-    margin-right: auto;
+.card-deck .card {
+    margin-bottom: 75px;
 }

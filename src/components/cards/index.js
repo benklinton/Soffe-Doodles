@@ -4,11 +4,13 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import CardDeck from 'react-bootstrap/CardDeck'
 
 function Cards() {
     return (
         <Container>
             <Row>
+                <CardDeck>
                 <Card className="card-style">
                     <Card.Img variant="top" src="https://via.placeholder.com/200x200" />
                     <Card.Body>
@@ -44,6 +46,7 @@ function Cards() {
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
+                </CardDeck>
             </Row>
         </Container>
     )

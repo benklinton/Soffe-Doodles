@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "670f89d96a40f34081924c4239c51225",
+    "revision": "03ea400e65356981a7d65ce6bea2b17f",
     "url": "/Soffe-Doodles/index.html"
   },
   {
-    "revision": "6fb7db9e93b91821c647",
-    "url": "/Soffe-Doodles/static/css/main.d072b112.chunk.css"
+    "revision": "727c01dfb903d3f8dda4",
+    "url": "/Soffe-Doodles/static/css/main.c45cf776.chunk.css"
   },
   {
     "revision": "2919a066202650a791ae",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Soffe-Doodles/static/js/2.b2060d6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6fb7db9e93b91821c647",
-    "url": "/Soffe-Doodles/static/js/main.32e8a80a.chunk.js"
+    "revision": "727c01dfb903d3f8dda4",
+    "url": "/Soffe-Doodles/static/js/main.13f2e6a3.chunk.js"
   },
   {
     "revision": "03e4e952f5d19503a3d7",
     "url": "/Soffe-Doodles/static/js/runtime-main.9e859763.js"
+  },
+  {
+    "revision": "edb861a46c89923a622a38f6190a3021",
+    "url": "/Soffe-Doodles/static/media/bush.edb861a4.png"
   }
 ]);

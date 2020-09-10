@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Soffe-Doodles/precache-manifest.07d74012df305b7e5b9d4a66270935e5.js"
+  "/Soffe-Doodles/precache-manifest.5d49b992118b9f5d54d2559ad5deae6d.js"
 );
 
 self.addEventListener('message', (event) => {

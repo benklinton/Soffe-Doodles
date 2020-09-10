@@ -1,8 +1,6 @@
-.bg-content {
-    background-image: url("https:/via.placeholder.com/900x900");
+.custom-style {
     margin-top: 100px;
     margin-bottom: 100px;
-    height: 500px;
 }
 
 .container-style {

@@ -24,7 +24,7 @@ function Navigation() {
             </Nav.Item>
             <Router>
               <Nav.Item>
-                <Nav.Link href="/gallery">Gallery</Nav.Link>
+                <Nav.Link href="Soffe-Doodles/gallery">Gallery</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="/">TBD</Nav.Link>

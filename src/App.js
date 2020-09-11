@@ -1,19 +1,21 @@
 import React from 'react';
 import Home from './pages/Home';
-import Gallery from './pages/Gallery'
+import Gallery from './pages/Gallery';
+import Application from './pages/Application';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
     return(
-        <div>
+        <>
             <Router>
                 <Switch>
                     <Route exact path = '/Soffe-Doodles' component={Home}/>
                     <Route exact path = '/' component={Home}/>
-                    <Route path = 'Soffe-Doodles/gallery' component={Gallery}/>
+                    <Route path = '/gallery' component={Gallery}/>
+                    <Route path = '/application' component={Application}/>
                 </Switch>
             </Router>
-        </div>
+        </>
         
     )
 }

@@ -5,11 +5,11 @@ import BackgroundPage from '../components/background-page';
 
 function Gallery () {
     return (
-        <div>
+        <>
             <Navigation/>
             <BackgroundPage/>
             <Footer/>
-        </div>
+        </>
     )
 }
 

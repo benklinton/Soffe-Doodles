@@ -9,7 +9,7 @@ function Header() {
             <Container className='h-100'>
                 <Row className='h-100 align-items-center'>
                     <div className='col-lg-12'>
-                        <h1 className='display-4 text-black mb-4'> Application Form</h1>
+                        <h1 className='display-4 text-black mb-4'> Sires and Dames</h1>
                     </div>
 
                 </Row>

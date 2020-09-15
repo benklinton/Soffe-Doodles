@@ -37,6 +37,36 @@ function FormLayout() {
                         </Form.Group>
                     </Col>
                 </Form.Row>
+
+                <Form.Row>
+                    <Col className='col-md-4'>
+                        <Form.Group controlId="formBasicCity">
+                            <Form.Label>City</Form.Label>
+                            <Form.Control type="text" placeholder="City" />
+                        </Form.Group>
+                    </Col>
+
+                    <Col className='col-md-4'>
+                        <Form.Group controlId="formBasicState">
+                            <Form.Label>State</Form.Label>
+                            <Form.Control type="text" placeholder="State" />
+                        </Form.Group>
+                    </Col>
+
+                    <Col className='col-md-4'>
+                        <Form.Group controlId="formBasicZip">
+                            <Form.Label>Zip Code</Form.Label>
+                            <Form.Control type='integer' placeholder='Zip Code'/>
+                        </Form.Group>
+                    </Col>
+                </Form.Row>
+                <Col className= "col-md-4">
+                    <Form.Group controlId="fromBasicQuestion">
+                        <Form.Label>Tell us about your family</Form.Label>
+                        <Form.Control type='text' placeholder="Enter answer here" rows="5"/>
+                    </Form.Group>
+                </Col>
+
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>

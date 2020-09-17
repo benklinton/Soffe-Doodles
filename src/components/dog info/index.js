@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function InfoCards() {
+function DogInfo() {
     return (
         <>
             <Container>
@@ -152,4 +152,4 @@ function InfoCards() {
     )
 }
 
-export default InfoCards;
+export default DogInfo;

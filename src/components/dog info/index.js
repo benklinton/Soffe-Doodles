@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,8 +10,8 @@ function DogInfo() {
             <Container>
                 <h1 className="mt-5">Poodle Dames</h1>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className=" mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Fern</h1>
@@ -24,8 +25,8 @@ function DogInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Willow</h1>
@@ -41,8 +42,8 @@ function DogInfo() {
                 </Row>
                 <h1>Bernese Mountain Dog Dam</h1>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Scout</h1>
@@ -59,8 +60,8 @@ function DogInfo() {
                 </Row>
                 <h1>Cockapoo Dam</h1>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Lettie</h1>
@@ -78,8 +79,8 @@ function DogInfo() {
                 </Row>
                 <h1>Goldendoodle Dam</h1>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Oakley</h1>
@@ -98,8 +99,8 @@ function DogInfo() {
                 </Row>
                 <h1>Sires and Studs</h1>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Cooper</h1>
@@ -115,8 +116,8 @@ function DogInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Rex</h1>
@@ -132,8 +133,8 @@ function DogInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5"></img>
+                    <Col lg={'auto'} xs={'auto'}>
+                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Ollie</h1>

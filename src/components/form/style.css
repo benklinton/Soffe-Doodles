@@ -1,3 +1,17 @@
-.frame {
-    margin-left: 250px;
+#frame {
+margin-left: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    #frame {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    #frame {
+        width: 100%;
+        margin-left: 0px;
+    }
 }

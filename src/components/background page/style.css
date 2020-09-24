@@ -6,6 +6,18 @@
     -o-background-size: cover;
   } */
 
-  h1 {
-      text-align: center;
+  .title {
+      margin-left: 300px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .title {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        .img {
+           float: right;
+        }
+    }

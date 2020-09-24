@@ -32,6 +32,9 @@ function Navigation() {
               <Nav.Item>
                 <Nav.Link href="/sires-dames">Sires and Dames</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/puppies">Puppies</Nav.Link>
+              </Nav.Item>
             </Router>
           </ul>
         </Navbar.Collapse>

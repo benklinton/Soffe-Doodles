@@ -16,7 +16,7 @@ function App() {
                     <Route path = '/gallery' component={Gallery}/>
                     <Route path = '/application' component={Application}/>
                     <Route path = '/sires-dames' component={Sires_and_Dames}/>
-                    <Route path = '/puppies' component={Litters}/>
+                    <Route path = '/avaliable-puppies' component={Litters}/>
                 </Switch>
             </Router>
         </>

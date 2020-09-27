@@ -8,25 +8,27 @@ function LitterInfo() {
     return (
         <Container>
             <Row>
-                <Col className="mb-4 mt-4">
+                <Col id="margin-custom">
                     <img src="https://via.placeholder.com/300x300" alt="pics of puppies"></img>
                 </Col>
-                <Col className="mb-4 mt-4">
+                <Col id="margin-custom">
                     <img src="https://via.placeholder.com/300x300" alt="pics of puppies"></img>
                 </Col>
-                <Col>
-                    <h1 className="m-4">
+                <Col style={{textAlign: 'center'}}>
+                    <h1 id="margin-custom" >
                         Fern + Rex =
                </h1>
-                    <h3 className="m-4">
+                    <h3 style={{ marginTop: '5rem'}}>
                         F1b mini Red Goldendoodles
-                        November 2020
+               </h3>
+               <h3>
+                   November 2020
                </h3>
                 </Col>
             </Row>
-            <Row>
+            <Row style={{textAlign: 'center'}}>
                 <Col xs={4}>
-                    <h3>
+                    <h3 style={{marginRight: "4rem"}}>
                         Fern is a beautiful AFC 40lbs standard poodle
                 </h3>
                 </Col>
@@ -47,10 +49,7 @@ function LitterInfo() {
                 </Col>
             </Row>
             <Row>
-                <Col lg={4}>
-                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies"></img>
-                </Col>
-                <Col style={{ textAlign: 'center' }} lg={8}>
+            <Col style={{ textAlign: 'left' }} lg={6}>
                     <h3>
                         Scout & Cowboy Litter
                     </h3>
@@ -60,12 +59,15 @@ function LitterInfo() {
                     <h4>
                         (all puppies are reserved)
                     </h4>
-                    <h3 className='m-4'>
+                    <h3>
                         F1 Mini Bernadoodles
                     </h3>
-                    <h3>
+                    <h3 className="mt-4">
                         Scouts next litter will be spring 2021
                     </h3>
+                </Col>
+                <Col lg={4} style={{marginBottom: '4rem'}}>
+                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies"></img>
                 </Col>
             </Row>
             <Row>

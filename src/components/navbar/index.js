@@ -35,6 +35,9 @@ function Navigation() {
               <Nav.Item>
                 <Nav.Link href="/avaliable-puppies">Avaliable Puppies</Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/health">Health Guarantee</Nav.Link>
+              </Nav.Item>
             </Router>
           </ul>
         </Navbar.Collapse>

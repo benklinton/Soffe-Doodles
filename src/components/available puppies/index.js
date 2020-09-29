@@ -30,7 +30,7 @@ function LitterInfo() {
                <h3>
                    November 2020
                </h3>
-               <h3 style={{marginTop: '3rem'}}>
+               <h3 style={{marginTop: '2rem'}}>
                         Puppies available, contact us for more infomation
                </h3>
                 </Col>

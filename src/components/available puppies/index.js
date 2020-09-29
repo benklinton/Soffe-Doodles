@@ -41,7 +41,7 @@ function LitterInfo() {
             </Row>
             <Row>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/1000x300" alt="pics of puppies"></img>
+                    <img src="https://via.placeholder.com/1000x300" alt="pics of puppies" style={{width: '100%'}}></img>
                 </Col>
             </Row>
             <Row>
@@ -63,7 +63,7 @@ function LitterInfo() {
                     </h3>
                 </Col>
                 <Col lg={4} style={{marginBottom: '4rem'}}>
-                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies"></img>
+                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies" style={{width: '100%'}}></img>
                 </Col>
             </Row>
             <Row>

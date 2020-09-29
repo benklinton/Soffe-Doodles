@@ -62,8 +62,8 @@ function LitterInfo() {
                         Scouts next litter will be spring 2021
                     </h3>
                 </Col>
-                <Col lg={4} style={{marginBottom: '4rem'}}>
-                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies" style={{width: '100%'}}></img>
+                <Col lg={6} style={{marginBottom: '4rem'}}>
+                    <img src="https://via.placeholder.com/400x400" alt="pics of puppies"></img>
                 </Col>
             </Row>
             <Row>

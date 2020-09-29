@@ -8,7 +8,7 @@ function DogInfo() {
     return (
         <>
             <Container>
-                <h1 className="mt-5">Poodle Dames</h1>
+                <h1 className="mt-5 text-center">Poodle Dames</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className=" mt-5 mb-5 img-responive"></img>
@@ -40,7 +40,7 @@ function DogInfo() {
                         <p>Weight: 55 lbs</p>
                     </Col>
                 </Row>
-                <h1>Bernese Mountain Dog Dam</h1>
+                <h1 className="text-center">Bernese Mountain Dog Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
@@ -58,7 +58,7 @@ function DogInfo() {
                         <p>Weight: 80 lbs</p>
                     </Col>
                 </Row>
-                <h1>Cockapoo Dam</h1>
+                <h1 className="text-center">Cockapoo Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
@@ -77,7 +77,7 @@ function DogInfo() {
                         <p>Weight: 18 lbs </p>
                     </Col>
                 </Row>
-                <h1>Goldendoodle Dam</h1>
+                <h1 className="text-center">Goldendoodle Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
@@ -97,7 +97,7 @@ function DogInfo() {
                         <p>Weight: 50 lbs </p>
                     </Col>
                 </Row>
-                <h1>Sires and Studs</h1>
+                <h1 className="text-center">Sires and Studs</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>

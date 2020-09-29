@@ -9,10 +9,16 @@ function LitterInfo() {
         <Container>
             <Row>
                 <Col id="margin-custom">
-                    <img src="https://via.placeholder.com/300x300" alt="pics of puppies"></img>
+                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <div id='middle'>
+                    <h1 id='text'> Fern is a beautiful AFC 40lbs standard poodle</h1>
+                    </div>
                 </Col>
                 <Col id="margin-custom">
-                    <img src="https://via.placeholder.com/300x300" alt="pics of puppies"></img>
+                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <div id='middle'>
+                    <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
+                    </div>
                 </Col>
                 <Col style={{textAlign: 'center'}}>
                     <h1 id="margin-custom" >
@@ -26,18 +32,8 @@ function LitterInfo() {
                </h3>
                 </Col>
             </Row>
-            <Row style={{textAlign: 'center'}}>
-                <Col xs={4}>
-                    <h3 style={{marginRight: "4rem"}}>
-                        Fern is a beautiful AFC 40lbs standard poodle
-                </h3>
-                </Col>
-                <Col xs={4}>
-                    <h3>
-                        Rex is a handsome 27lbs F1 mini Goldendoodle
-               </h3>
-                </Col>
-                <Col>
+            <Row>
+                <Col lg={4}>
                     <h3>
                         Puppies available, contact us for more infomation
                </h3>

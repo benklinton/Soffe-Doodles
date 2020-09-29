@@ -24,17 +24,13 @@ function LitterInfo() {
                     <h1 id="margin-custom" >
                         Fern + Rex =
                </h1>
-                    <h3 style={{ marginTop: '5rem'}}>
+                    <h3 style={{ marginTop: '3rem'}}>
                         F1b mini Red Goldendoodles
                </h3>
                <h3>
                    November 2020
                </h3>
-                </Col>
-            </Row>
-            <Row>
-                <Col lg={4}>
-                    <h3>
+               <h3 style={{marginTop: '3rem'}}>
                         Puppies available, contact us for more infomation
                </h3>
                 </Col>

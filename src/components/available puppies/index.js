@@ -3,6 +3,7 @@ import './style.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 function LitterInfo() {
     return (
@@ -82,20 +83,19 @@ function LitterInfo() {
                     <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
                 </Col>
             </Row>
-            <Row>
-                <Col id="non-margin">
+            <Row style={{marginBottom: "6rem"}}>
+                <Col >
                     <img src="https://via.placeholder.com/400x400" id='dog-img' alt="pics of puppies"></img>
-                    <div id='middle'>
-                        <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
-                    </div>
                 </Col>
-                <Col style={{ textAlign: 'center', marginRight: "3rem" }}>
+                <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop:"3rem"}}>
                     <h2>
-                        Scout our AKC Bernese Moutain Dog. Her next litter will be spring 2021
+                        Scout our AKC Bernese Moutain Dog will be having her next litter spring of 2021
                     </h2>
                     <h2>
                         Click here to get on her Mini Bernadoodle waiting list
                     </h2>
+                    <br></br>
+                    <Button variant="outline-info" href="https://forms.gle/HErxqFTS4CBUgZKT8" target='_blank'>Waiting List</Button>{' '}
                 </Col>
             </Row>
         </Container>

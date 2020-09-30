@@ -95,7 +95,7 @@ function LitterInfo() {
                         Click here to get on her Mini Bernadoodle waiting list
                     </h2>
                     <br></br>
-                    <Button variant="outline-info" href="https://forms.gle/HErxqFTS4CBUgZKT8" target='_blank'>Waiting List</Button>{' '}
+                    <Button variant="outline-info" href="https://forms.gle/HErxqFTS4CBUgZKT8" target='_blank'>Waiting List</Button>
                 </Col>
             </Row>
         </Container>

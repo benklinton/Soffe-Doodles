@@ -42,3 +42,11 @@
 #margin-custom:hover #middle {
     opacity: 1;
   }
+
+  #non-margin:hover #dog-img {
+    opacity: 0.3;
+  }
+
+  #non-margin:hover #middle {
+    opacity: 1;
+  }

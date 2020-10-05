@@ -3,6 +3,7 @@ import Navigation from '../components/navbar';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import DogInfo from '../components/dog info';
+import SocialMedia from '../components/social media';
 
 function Sires_and_Dames () {
     return (
@@ -10,6 +11,7 @@ function Sires_and_Dames () {
         <Navigation/>
         <Header/>
         <DogInfo/>
+        <SocialMedia/>
         <Footer/>
         </>
     )

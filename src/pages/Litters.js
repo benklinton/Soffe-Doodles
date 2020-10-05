@@ -3,6 +3,7 @@ import Navigation from '../components/navbar';
 import Header from '../components/header';
 import LitterInfo from '../components/available puppies';
 import Footer from '../components/footer';
+import SocialMedia from '../components/social media';
 
 function Litters () {
     return (
@@ -10,6 +11,7 @@ function Litters () {
         <Navigation/>
         <Header/>
         <LitterInfo/>
+        <SocialMedia/>
         <Footer/>
         </>
     )

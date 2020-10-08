@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7727d4796738e258c1b4bbc79b5295eb",
+    "revision": "664be46898ffd890efef52a4a10564d8",
     "url": "/Soffe-Doodles/index.html"
   },
   {
-    "revision": "fd47966cfe184a958e32",
-    "url": "/Soffe-Doodles/static/css/main.31b1de3b.chunk.css"
+    "revision": "4533915c5af938797d35",
+    "url": "/Soffe-Doodles/static/css/main.c337f38e.chunk.css"
   },
   {
     "revision": "94d35de363efbcef8531",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Soffe-Doodles/static/js/2.c8fbe4e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd47966cfe184a958e32",
-    "url": "/Soffe-Doodles/static/js/main.425ff0ac.chunk.js"
+    "revision": "4533915c5af938797d35",
+    "url": "/Soffe-Doodles/static/js/main.18b32550.chunk.js"
   },
   {
     "revision": "03e4e952f5d19503a3d7",

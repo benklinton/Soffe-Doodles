@@ -21,3 +21,8 @@
     position: relative;
     width: 100%;
 }
+
+#dog-illustration {
+    height: 200px;
+    width: 200px;
+}

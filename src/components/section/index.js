@@ -30,7 +30,7 @@ function Section() {
                 </div>
             </div>
             <div className="section-align">
-                <img alt="" src='https://via.placeholder.com/100x100'></img>
+                <img alt="dog illustration" id="dog-illustration" src="./assets/Dog-illustration.png"></img>
             </div>
         </div>
     )

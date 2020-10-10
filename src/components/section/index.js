@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import image from'./images/Dog-illustration.png';
 
 function Section() {
     return (
@@ -30,7 +31,7 @@ function Section() {
                 </div>
             </div>
             <div className="section-align">
-                <img alt="dog illustration" id="dog-illustration" src="./images/Dog-illustration.png"></img>
+                <img alt="dog illustration" id="dog-illustration" src={image}></img>
             </div>
         </div>
     )

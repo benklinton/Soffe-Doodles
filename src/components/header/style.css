@@ -4,8 +4,8 @@
 }
 
 .bg-image {
-        background: linear-gradient(to bottom, rgba(87, 88, 90, 0.575), rgba(87,88,90, 0.575)), url(https://via.placeholder.com/1000x1000);
-        background-image: linear-gradient(rgba(87, 88, 90, 0.575), rgba(87, 88, 90, 0.575)), url(https://via.placeholder.com/1000x1000);
+        background: linear-gradient(to bottom, rgba(87, 88, 90, 0.575), rgba(87,88,90, 0.575)), url(PuppyHeader.jpg);
+        background-image: linear-gradient(rgba(87, 88, 90, 0.575), rgba(87, 88, 90, 0.575)), url(PuppyHeader.jpg);
         background-position-x: center;
         background-position-y: center;
         background-size: cover;

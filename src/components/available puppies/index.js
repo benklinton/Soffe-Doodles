@@ -4,19 +4,26 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import Fern from './images/Fern.jpg';
+import Rex from './images/Rex.jpg';
+import Willow from './images/Willow.jpg';
+import Desodo from './images/Desodo.jpeg';
+import Scout from './images/Scout.jpeg';
+import Break from './images/Breakpoint.jpg';
+
 
 function LitterInfo() {
     return (
         <Container>
             <Row>
                 <Col id="margin-custom">
-                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <img src={Fern} id='dog-img' alt="pics of puppies"></img>
                     <div id='middle'>
                         <h1 id='text'> Fern is a beautiful AFC 40lbs standard poodle</h1>
                     </div>
                 </Col>
                 <Col id="margin-custom">
-                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <img src={Rex} id='dog-img' alt="pics of puppies"></img>
                     <div id='middle'>
                         <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
                     </div>
@@ -38,7 +45,7 @@ function LitterInfo() {
             </Row>
             <Row>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/1000x300" alt="pics of puppies" style={{ width: '100%' }}></img>
+                    <img src={Break} alt="pics of puppies" style={{ width: '100%' }}></img>
                 </Col>
             </Row>
             <Row>
@@ -57,13 +64,13 @@ function LitterInfo() {
                </h3>
                 </Col>
                 <Col id='non-margin'>
-                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <img src={Willow} id='dog-img' alt="pics of puppies"></img>
                     <div id='middle'>
                         <h1 id='text'> Willow is a gentle AKC Standard Poodle</h1>
                     </div>
                 </Col>
                 <Col id='non-margin'>
-                    <img src="https://via.placeholder.com/300x300" id='dog-img' alt="pics of puppies"></img>
+                    <img src={Desodo} id='dog-img' alt="pics of puppies"></img>
                     <div id='middle'>
                         <h1 id='text'>Desodo is a dashing AKC Bernese Mountain Dog</h1>
                     </div>
@@ -85,7 +92,7 @@ function LitterInfo() {
             </Row>
             <Row style={{marginBottom: "6rem"}}>
                 <Col >
-                    <img src="https://via.placeholder.com/400x400" id='dog-img' alt="pics of puppies"></img>
+                    <img src={Scout} id='dog-img' alt="pics of puppies"></img>
                 </Col>
                 <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop:"3rem"}}>
                     <h2>

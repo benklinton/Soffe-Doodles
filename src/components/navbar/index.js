@@ -5,13 +5,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import Logo from './images/Logo.png';
 
 function Navigation() {
   return (
     <Nav className="navbar navbar-expand-lg navbar-dark bg-custom static-top">
       <Container>
         <Navbar.Brand>
-          <img src="http://placehold.it/150x50?text=Logo" alt="Logo"></img>
+          <img src={Logo} alt="Logo"></img>
         </Navbar.Brand>
         <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

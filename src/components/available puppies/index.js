@@ -9,7 +9,7 @@ import Rex from './images/Rex.jpg';
 import Willow from './images/Willow.jpg';
 import Desodo from './images/Desodo.jpeg';
 import Scout from './images/Scout.jpeg';
-import Break from './images/Breakpoint.jpg';
+
 
 
 function LitterInfo() {
@@ -45,7 +45,7 @@ function LitterInfo() {
             </Row>
             <Row>
                 <Col id="margin-break">
-                    <img src={Break} alt="pics of puppies" style={{ width: '100%' }}></img>
+                    <img src="https://via.placeholder.com/1000x300" alt="pics of puppies" style={{ width: '100%' }}></img>
                 </Col>
             </Row>
             <Row>

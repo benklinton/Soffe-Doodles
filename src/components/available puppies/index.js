@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Fern from './images/Fern.jpg';
 import Rex from './images/Rex.jpg';
-import Willow from './images/WillowH3.jpg';
-import Desodo from './images/DesodoW3.jpg';
-import Scout from './images/Scout.jpeg';
+import Willow from './images/Willow.jpg';
+import Desodo from './images/Desodo.jpg';
+import Scout from './images/Scout.jpg';
 
 
 

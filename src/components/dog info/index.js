@@ -9,6 +9,7 @@ import Scout from './images/Scout.jpg';
 import Lettie from './images/Lettie.jpg';
 import Cooper from './images/Cooper.jpg';
 import Rex from './images/Rex.jpg';
+import Ollie from './images/Ollie.jpg';
 
 function DogInfo() {
     return (
@@ -140,7 +141,7 @@ function DogInfo() {
                 </Row>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
+                        <img src={Ollie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Ollie</h1>

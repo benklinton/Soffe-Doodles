@@ -13,7 +13,10 @@ import Puppy1 from './images/Puppy1.jpg';
 import Puppy2 from './images/Puppy2.jpg';
 import Puppy3 from './images/Puppy3.jpg';
 import Puppy4 from './images/Puppy4.jpg';
-
+import Puppy5 from './images/Puppy5.jpg';
+import Puppy6 from './images/Puppy6.jpg';
+import Puppy7 from './images/Puppy7.jpg';
+import Puppy8 from './images/Puppy8.jpg';
 
 
 function LitterInfo() {
@@ -91,16 +94,16 @@ function LitterInfo() {
             </Row>
             <Row>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy5} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy6} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy7} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy8} alt="pics of puppies"></img>
                 </Col>
             </Row>
             <Row style={{marginBottom: "6rem"}}>

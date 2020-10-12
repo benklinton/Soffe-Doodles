@@ -9,6 +9,10 @@ import Rex from './images/Rex.jpg';
 import Willow from './images/Willow.jpg';
 import Desodo from './images/Desodo.jpg';
 import Scout from './images/Scout.jpg';
+import Puppy1 from './images/Puppy1.jpg';
+import Puppy2 from './images/Puppy2.jpg';
+import Puppy3 from './images/Puppy3.jpg';
+import Puppy4 from './images/Puppy4.jpg';
 
 
 
@@ -45,16 +49,16 @@ function LitterInfo() {
             </Row>
             <Row>
             <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy1} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy2} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy3} alt="pics of puppies"></img>
                 </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                    <img src={Puppy4} alt="pics of puppies"></img>
                 </Col>
             </Row>
             <Row>

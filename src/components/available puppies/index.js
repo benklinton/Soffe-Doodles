@@ -44,8 +44,17 @@ function LitterInfo() {
                 </Col>
             </Row>
             <Row>
+            <Col id="margin-break">
+                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                </Col>
                 <Col id="margin-break">
-                    <img src="https://via.placeholder.com/1000x300" alt="pics of puppies" style={{ width: '100%' }}></img>
+                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                </Col>
+                <Col id="margin-break">
+                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
+                </Col>
+                <Col id="margin-break">
+                    <img src="https://via.placeholder.com/250x250" alt="pics of puppies"></img>
                 </Col>
             </Row>
             <Row>

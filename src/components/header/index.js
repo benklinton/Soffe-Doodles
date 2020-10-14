@@ -9,7 +9,7 @@ function Header() {
             <Container className='h-100'>
                 <Row className='h-100 align-items-center'>
                     <div className='col-lg-12'>
-                        <h1 className='display-4 text-black mb-4' style={{textAlign: 'center'}}> Application</h1>
+                        <h1 className='mb-4 header-font' style={{textAlign: 'center'}}> Application</h1>
                     </div>
 
                 </Row>

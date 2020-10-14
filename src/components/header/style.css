@@ -11,3 +11,8 @@
         background-size: cover;
         background-attachment: scroll;
 }
+
+.header-font {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5rem;
+  }

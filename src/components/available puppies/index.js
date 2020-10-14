@@ -48,6 +48,8 @@ function LitterInfo() {
                     <h3 style={{ marginTop: '2rem' }}>
                         Puppies available, contact us for more infomation
                </h3>
+               <br></br>
+               <Button variant="outline-info" href="/application">Apply Here</Button>
                 </Col>
             </Row>
             <Row>
@@ -78,6 +80,8 @@ function LitterInfo() {
                     <h3 style={{ marginTop: '2rem' }}>
                         Puppies available, contact us for more infomation
                </h3>
+               <br></br>
+               <Button variant="outline-info" href="/application">Apply Here</Button>
                 </Col>
                 <Col id='non-margin'>
                     <img src={Willow} id='dog-img' alt="pics of puppies"></img>

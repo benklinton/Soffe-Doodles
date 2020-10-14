@@ -14,6 +14,16 @@ import Ollie from './images/Ollie.jpg';
 function DogInfo() {
     return (
         <>
+        <header className='masthead' id="bg-image">
+            <Container className='h-100'>
+                <Row className='h-100 align-items-center'>
+                    <div className='col-lg-12'>
+                        <h1 className='display-4 text-black mb-4' style={{textAlign: 'center'}}> Sires and Dames</h1>
+                    </div>
+
+                </Row>
+            </Container>
+        </header>
             <Container>
                 <h1 className="mt-5 text-center">Poodle Dames</h1>
                 <Row>

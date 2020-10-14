@@ -56,7 +56,7 @@
     padding-bottom: 6rem;
 }
 
-.bg-image {
+.bg-image-ap {
         background: linear-gradient(to bottom, rgba(87, 88, 90, 0.575), rgba(87,88,90, 0.575)), url(images/PuppyHeader.jpg);
         background-image: linear-gradient(rgba(87, 88, 90, 0.575), rgba(87, 88, 90, 0.575)), url(images/PuppyHeader.jpg);
         background-position-x: center;

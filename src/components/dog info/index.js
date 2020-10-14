@@ -14,7 +14,7 @@ import Ollie from './images/Ollie.jpg';
 function DogInfo() {
     return (
         <>
-        <header className='masthead' id="bg-image">
+        <header className='masthead bg-image-di'>
             <Container className='h-100'>
                 <Row className='h-100 align-items-center'>
                     <div className='col-lg-12'>

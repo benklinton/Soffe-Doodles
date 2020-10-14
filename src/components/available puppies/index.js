@@ -22,7 +22,7 @@ import Puppy8 from './images/Puppy8.jpg';
 function LitterInfo() {
     return (
         <>
-            <header className='masthead bg-image'>
+            <header className='masthead bg-image-ap'>
                 <Container className='h-100'>
                     <Row className='h-100 align-items-center'>
                         <div className='col-lg-12'>

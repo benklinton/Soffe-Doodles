@@ -21,111 +21,123 @@ import Puppy8 from './images/Puppy8.jpg';
 
 function LitterInfo() {
     return (
-        <Container>
-            <Row>
-                <Col id="margin-custom">
-                    <img src={Fern} id='dog-img' alt="pics of puppies"></img>
-                    <div id='middle'>
-                        <h1 id='text'> Fern is a beautiful AFC 40lbs standard poodle</h1>
-                    </div>
-                </Col>
-                <Col id="margin-custom">
-                    <img src={Rex} id='dog-img' alt="pics of puppies"></img>
-                    <div id='middle'>
-                        <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
-                    </div>
-                </Col>
-                <Col style={{ textAlign: 'center' }}>
-                    <h1 id="margin-custom" >
-                        Fern + Rex =
-               </h1>
-                    <h3 style={{ marginTop: '3rem' }}>
-                        F1b mini Red Goldendoodles
-               </h3>
-                    <h3>
-                        November 2020
-               </h3>
-                    <h3 style={{ marginTop: '2rem' }}>
-                        Puppies available, contact us for more infomation
-               </h3>
-               <br></br>
-               <Button variant="outline-info" href="/application">Apply Here</Button>
-                </Col>
-            </Row>
-            <Row>
-            <Col id="margin-break">
-                    <img src={Puppy1} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy2} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy3} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy4} alt="pics of puppies"></img>
-                </Col>
-            </Row>
-            <Row>
-                <Col style={{ textAlign: 'center', marginRight: "3rem" }}>
-                    <h1>
-                        Willow + Desodo =
-               </h1>
-                    <h3 style={{ marginTop: '3rem' }}>
-                        F1 Bernadoodles
-               </h3>
-                    <h3>
-                        November 2020
-               </h3>
-                    <h3 style={{ marginTop: '2rem' }}>
-                        Puppies available, contact us for more infomation
-               </h3>
-               <br></br>
-               <Button variant="outline-info" href="/application">Apply Here</Button>
-                </Col>
-                <Col id='non-margin'>
-                    <img src={Willow} id='dog-img' alt="pics of puppies"></img>
-                    <div id='middle'>
-                        <h1 id='text'> Willow is a gentle AKC Standard Poodle</h1>
-                    </div>
-                </Col>
-                <Col id='non-margin'>
-                    <img src={Desodo} id='dog-img' alt="pics of puppies"></img>
-                    <div id='middle'>
-                        <h1 id='text'>Desodo is a dashing AKC Bernese Mountain Dog</h1>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col id="margin-break">
-                    <img src={Puppy5} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy6} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy7} alt="pics of puppies"></img>
-                </Col>
-                <Col id="margin-break">
-                    <img src={Puppy8} alt="pics of puppies"></img>
-                </Col>
-            </Row>
-            <Row style={{marginBottom: "6rem"}}>
-                <Col >
-                    <img src={Scout} id='dog-img' alt="pics of puppies"></img>
-                </Col>
-                <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop:"3rem"}}>
-                    <h2>
-                        Scout our AKC Bernese Moutain Dog will be having her next litter spring of 2021
-                    </h2>
-                    <h2>
-                        Click here to get on her Mini Bernadoodle waiting list
-                    </h2>
-                    <br></br>
-                    <Button variant="outline-info" href="https://forms.gle/HErxqFTS4CBUgZKT8" target='_blank'>Waiting List</Button>
-                </Col>
-            </Row>
-        </Container>
+        <>
+            <header className='masthead bg-image'>
+                <Container className='h-100'>
+                    <Row className='h-100 align-items-center'>
+                        <div className='col-lg-12'>
+                            <h1 className='display-4 text-black mb-4' style={{ textAlign: 'center' }}> Available Puppies</h1>
+                        </div>
+
+                    </Row>
+                </Container>
+            </header>
+            <Container>
+                <Row>
+                    <Col id="margin-custom">
+                        <img src={Fern} id='dog-img' alt="pics of puppies"></img>
+                        <div id='middle'>
+                            <h1 id='text'> Fern is a beautiful AFC 40lbs standard poodle</h1>
+                        </div>
+                    </Col>
+                    <Col id="margin-custom">
+                        <img src={Rex} id='dog-img' alt="pics of puppies"></img>
+                        <div id='middle'>
+                            <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
+                        </div>
+                    </Col>
+                    <Col style={{ textAlign: 'center' }}>
+                        <h1 id="margin-custom" >
+                            Fern + Rex =
+                        </h1>
+                        <h3 style={{ marginTop: '3rem' }}>
+                            F1b mini Red Goldendoodles
+                        </h3>
+                        <h3>
+                            November 2020
+                        </h3>
+                        <h3 style={{ marginTop: '2rem' }}>
+                            Puppies available, contact us for more infomation
+                        </h3>
+                        <br></br>
+                        <Button variant="outline-info" href="/application">Apply Here</Button>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col id="margin-break">
+                        <img src={Puppy1} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy2} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy3} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy4} alt="pics of puppies"></img>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col style={{ textAlign: 'center', marginRight: "3rem" }}>
+                        <h1>
+                            Willow + Desodo =
+                        </h1>
+                        <h3 style={{ marginTop: '3rem' }}>
+                            F1 Bernadoodles
+                        </h3>
+                        <h3>
+                            November 2020
+                        </h3>
+                        <h3 style={{ marginTop: '2rem' }}>
+                            Puppies available, contact us for more infomation
+                        </h3>
+                        <br></br>
+                        <Button variant="outline-info" href="/application">Apply Here</Button>
+                    </Col>
+                    <Col id='non-margin'>
+                        <img src={Willow} id='dog-img' alt="pics of puppies"></img>
+                        <div id='middle'>
+                            <h1 id='text'> Willow is a gentle AKC Standard Poodle</h1>
+                        </div>
+                    </Col>
+                    <Col id='non-margin'>
+                        <img src={Desodo} id='dog-img' alt="pics of puppies"></img>
+                        <div id='middle'>
+                            <h1 id='text'>Desodo is a dashing AKC Bernese Mountain Dog</h1>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col id="margin-break">
+                        <img src={Puppy5} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy6} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy7} alt="pics of puppies"></img>
+                    </Col>
+                    <Col id="margin-break">
+                        <img src={Puppy8} alt="pics of puppies"></img>
+                    </Col>
+                </Row>
+                <Row style={{ marginBottom: "6rem" }}>
+                    <Col >
+                        <img src={Scout} id='dog-img' alt="pics of puppies"></img>
+                    </Col>
+                    <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop: "3rem" }}>
+                        <h2>
+                            Scout our AKC Bernese Moutain Dog will be having her next litter spring of 2021
+                        </h2>
+                        <h2>
+                            Click here to get on her Mini Bernadoodle waiting list
+                        </h2>
+                        <br></br>
+                        <Button variant="outline-info" href="https://forms.gle/HErxqFTS4CBUgZKT8" target='_blank'>Waiting List</Button>
+                    </Col>
+                </Row>
+            </Container>
+        </>
     )
 }
 

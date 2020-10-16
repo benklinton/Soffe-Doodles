@@ -25,144 +25,144 @@ function DogInfo() {
             </Container>
         </header>
             <Container>
-                <h1 className="mt-5 text-center">Poodle Dames</h1>
+                <h1 className="mt-5 text-center font-1">Poodle Dames</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Fern} alt='pics of dogs' className=" mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Fern</h1>
-                        <p>Fern is an AKC Standard Poodle who loves to retrieve her yard toys.
+                    <Col className="font-2">
+                        <h1 className="mt-5" style={{ textAlign: "left", fontWeight:"bold" }}>Fern</h1>
+                        <h3>Fern is an AKC Standard Poodle who loves to retrieve her yard toys.
                         She has a lot of energy, extremely soft fur and is very loving around the family and friends.
-                        She adores the water and would play out in the yard all day.</p>
+                        She adores the water and would play out in the yard all day.</h3>
                         <br />
-                        <p>Breed: AKC Standard Poodle</p>
+                        <h3>Breed: AKC Standard Poodle</h3>
                         <br />
-                        <p>Weight: 45 lbs</p>
+                        <h3>Weight: 45 lbs</h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Willow} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Willow</h1>
-                        <p>Willow is an AKC Royal Sable Poodle.
+                        <h4>Willow is an AKC Royal Sable Poodle.
                         Her full name is Willomena Fancy Prance because she is very dainty and loves to prance around the yard like a beauty queen.
                         She has a gentle bite and is very affectionate with children and other dogs.
-                        </p>
+                        </h4>
                         <br />
-                        <p>Breed:  AKC Royal Poodle</p>
+                        <h4>Breed:  AKC Royal Poodle</h4>
                         <br />
-                        <p>Weight: 55 lbs</p>
+                        <h4>Weight: 55 lbs</h4>
                     </Col>
                 </Row>
-                <h1 className="text-center">Bernese Mountain Dog Dame</h1>
+                <h1 className="text-center font-1">Bernese Mountain Dog Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Scout} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className='font-2'>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Scout</h1>
-                        <p>Scout is an AKC Bernese Mountain Dog.
+                        <h4>Scout is an AKC Bernese Mountain Dog.
                         She loves to be outside, and playing in the snow.
                         Scout has a short nose with a blocky head that makes her one good looking doggie.
                         Scout is very smart and she loves to have her belly rubbed.
-                        </p>
+                        </h4>
                         <br />
-                        <p>Breed:  Bernese Mountain Dog</p>
+                        <h4>Breed:  Bernese Mountain Dog</h4>
                         <br />
-                        <p>Weight: 80 lbs</p>
+                        <h4>Weight: 80 lbs</h4>
                     </Col>
                 </Row>
-                <h1 className="text-center">Cockapoo Dame</h1>
+                <h1 className="text-center font-1">Cockapoo Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Lettie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Lettie</h1>
-                        <p>Lettie is an F1 Cockapoo. Her full name is Lettie Lue the Cockapoo.
+                        <h3>Lettie is an F1 Cockapoo. Her full name is Lettie Lue the Cockapoo.
                         She loves to be outside playing and running in the yard.
                         She has a beautiful Blue Merle coat which gives her the fancy coloring.
                         Lettie is a fantastic mother who keeps her liter box clean and tidy.
                         She will line her puppies up in a row after feeding them before she takes a break.
-                        </p>
+                        </h3>
                         <br />
-                        <p>Breed:  F1 Cockapoo</p>
+                        <h3>Breed:  F1 Cockapoo</h3>
                         <br />
-                        <p>Weight: 18 lbs </p>
+                        <h3>Weight: 18 lbs </h3>
                     </Col>
                 </Row>
-                <h1 className="text-center">Goldendoodle Dame</h1>
+                <h1 className="text-center font-1">Goldendoodle Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
-                        <img src="https://via.placeholder.com/400x400" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
+                        <img src="https://via.placeholder.com/400x400?text=Coming Soon" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Oakley</h1>
-                        <p>Oakley is an F1b Goldendoodle.
+                        <h3>Oakley is an F1b Goldendoodle.
                         Annie Oakley is the pack leader at our house.
                         She has been a fantastic mother to her babies,
                         and she teaches the other dogs as she goes.
                         Oakley was one of our first mommas @SoffeDoodles,
                         and although we don't have favorites, she is at the top of the list.
-                        </p>
+                        </h3>
                         <br />
-                        <p>Breed:  F1b Goldendoodle</p>
+                        <h3>Breed:  F1b Goldendoodle</h3>
                         <br />
-                        <p>Weight: 50 lbs </p>
+                        <h3>Weight: 50 lbs </h3>
                     </Col>
                 </Row>
-                <h1 className="text-center">Sires and Studs</h1>
+                <h1 className="text-center font-1">Sires and Studs</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Cooper} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Cooper</h1>
-                        <p>Cooper is an F1b Cockapoo.
+                        <h3>Cooper is an F1b Cockapoo.
                         His full name is Marshall Jed Cooper, he in not large, but he is in charge.
                         With five girls to look after he is always barking out orders to the ladies.
                         Cooper is also available for stud. Call Kathleen at 801-580-0699 to arrange a meeting, or get more information.
-                        </p>
+                        </h3>
                         <br />
-                        <p>Breed:  CKC Cockapoo</p>
+                        <h3>Breed:  CKC Cockapoo</h3>
                         <br />
-                        <p>Weight: 7 lbs </p>
+                        <h3>Weight: 7 lbs </h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Rex} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Rex</h1>
-                        <p>T-Rex is a Mini Red Goldendoodle with a white chin and chest.
+                        <h3>T-Rex is a Mini Red Goldendoodle with a white chin and chest.
                         He is a fantastic dog that loves to play fetch, run the yard, and keep up with the girls.
                         He lets Cooper be in charge, but knows that one day he will have to keep all the girls safe.
                         Rex is currently available for stud service, contact Kathleen at 801-580-0699 to arrange a meeting or get more information.
-                        </p>
+                        </h3>
                         <br />
-                        <p>Breed:  Mini Goldendoodle</p>
+                        <h3>Breed:  Mini Goldendoodle</h3>
                         <br />
-                        <p>Weight: 20 lbs </p>
+                        <h3>Weight: 20 lbs </h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
                         <img src={Ollie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
-                    <Col>
+                    <Col className="font-2">
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Ollie</h1>
-                        <p>Oliver Twist is an AKC Toy Poodle who is soon to be added to the SoffeDoodles stud line.
+                        <h3>Oliver Twist is an AKC Toy Poodle who is soon to be added to the SoffeDoodles stud line.
                         He is a little too young now, but his tri colors of tan, black and white, along with his small size will make him popular when he comes of age.
                         Ollie is a spunky little guy with a big heart.
-                        </p>
+                        </h3>
                         <br />
-                        <p>Breed:  AKC Toy Poodle</p>
+                        <h3>Breed:  AKC Toy Poodle</h3>
                         <br />
-                        <p>Weight: 5 lbs </p>
+                        <h3>Weight: 5 lbs </h3>
                     </Col>
                 </Row>
             </Container>

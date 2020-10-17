@@ -1,13 +1,17 @@
 import React from 'react';
 import './style.css';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import Slide from './images/Slide.jpg';
+import Slide2 from './images/Slide2.jpg';
+import Slide3 from './images/Slide3.jpg';
+
 function Slides() {
   return (
     <Carousel>
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://via.placeholder.com/1920x1080?text=FirstSlide"
+          src={Slide}
           alt="First slide"
         />
       </Carousel.Item>
@@ -15,7 +19,7 @@ function Slides() {
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://via.placeholder.com/1920x1080?text=SecondSlide"
+          src={Slide2}
           alt="Third slide"
         />
       </Carousel.Item>
@@ -23,7 +27,7 @@ function Slides() {
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://via.placeholder.com/1920x1080?text=ThirdSlide"
+          src={Slide3}
           alt="Third slide"
         />
       </Carousel.Item>

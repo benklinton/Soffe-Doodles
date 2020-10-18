@@ -1,12 +1,15 @@
 import React from 'react';
 import './style.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import image from'./images/Dog-illustration.png';
+import Doggies from './images/Doggies.jpg';
 
 function Section() {
     return (
         <div className="py-5">
-            <div className="container col-md-8 mb-5 mt-5">
-                <div className="row">
+            <Container className="col-md-8 mb-5 mt-5">
+                <Row>
                     <h1 className="font-1">Who We Are:</h1>
                     <p className="lead font-2">We are making a difference in the puppy breeding world.
                     We are dedicated to raising and training incredible parent dogs so that our puppies are outstanding.
@@ -14,22 +17,24 @@ function Section() {
                     All of our parent dogs are trained to be therapy companions so that they are ready for their new families after 2 to 3 litters.
                     Soffe Doodles will never over breed. We have a small number of outstanding dogs with calm temperaments that are passed on to their puppies.
                     If you are loooking for an outstanding puddy and its important to buy from a responisble breeder, you have come to the right place
-            </p>
+                    </p>
+
                     <div className="img-style">
-                        <img src="http://placehold.it/900x300" className= "img-style" alt=""></img>
+                        <img src={Doggies} className= "img-style" alt=""></img>
                     </div>
 
-                </div>
-                <div className="row">
+                </Row>
+                <Row>
                     <h1 className="font-1">Our Promise:</h1>
                     <p className="lead font-2">We are not a puppy mill. Each of our Parent dogs are treated as family members.
                     We keep small numbers of extraordinary dogs to breed and share the small number of puppies we sell.
                     Our females are not over bred.
                     Our home is always open to share the delightful life of raising puppies.
                     (due to covid, we will not be able to have visitors.)
-            </p>
-                </div>
-            </div>
+                    </p>
+                </Row>
+
+            </Container>
             <div className="section-align">
                 <img alt="dog illustration" id="dog-illustration" src={image}></img>
             </div>

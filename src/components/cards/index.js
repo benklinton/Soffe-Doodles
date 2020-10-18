@@ -14,36 +14,33 @@ function Cards() {
                 <Card className="card-style">
                     <Card.Img variant="top" src="https://via.placeholder.com/200x200" />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Application</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Interested in owning a puppy? Fill out our application
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="outline-info">Click Here</Button>
                     </Card.Body>
                 </Card>
 
                 <Card className="card-style">
                     <Card.Img variant="top" src="https://via.placeholder.com/200x200" />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Available Puppies</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Check out our avilable puppies page for this season's litter
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="outline-info" href='/avaliable-puppies'>Click Here</Button>
                     </Card.Body>
                 </Card>
 
                 <Card className="card-style">
                     <Card.Img variant="top" src="https://via.placeholder.com/200x200" />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Contact Us</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Questions, comments, concerns? Drop us a line real quick
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="outline-info">Click Here</Button>
                     </Card.Body>
                 </Card>
                 </CardDeck>

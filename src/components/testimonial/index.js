@@ -1,17 +1,18 @@
 import React from "react";
 import './style.css';
 import Card from "react-bootstrap/Card";
+import Puppy from './images/Puppy.jpg';
 
 function Testimonial () {
     return (
         <Card className=" text-black custom-style">
-        <Card.Img src="https://via.placeholder.com/940x300" alt="Image" style={{display: "block"}} />
+        <Card.Img src={Puppy} alt="Image" style={{display: "block"}} />
         <Card.ImgOverlay>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
+          <Card.Title className="font-1 custom-color font-size">See What People Are Saying</Card.Title>
+          <Card.Text className='font-2 custom-color'>
             Testimonial text will go here
           </Card.Text>
-          <Card.Text>-John Doe</Card.Text>
+          <Card.Text className='font-2 custom-color'>-John Doe</Card.Text>
         </Card.ImgOverlay>
       </Card>
     )

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import Container from 'react-bootstrap/Container';
 import data from './images.json'
-import ImageCard from '../image-card';
+import ImageCard from '../image card';
 
 class BackgroundPage extends Component {
   state = {

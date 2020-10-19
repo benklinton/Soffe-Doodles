@@ -1,6 +1,5 @@
 .img {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    float: left;
+    display: block;
+    display: inline-flex ;
+    margin: 40px;
 }

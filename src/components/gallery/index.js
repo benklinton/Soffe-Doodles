@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import data from './images.json'
 import ImageCard from '../image card';
 
-class BackgroundPage extends Component {
+class Images extends Component {
   state = {
     data,
     images: [],
@@ -14,9 +14,9 @@ class BackgroundPage extends Component {
   render() {
     return (
       <Container>
-        <div className="card border-0 shadow my-5">
+        <div>
           <div className="card-body">
-            <h1 className="font-weight-light title">Dog Gallery</h1>
+            <h1 className="title font-1">Dog Gallery</h1>
               {this.state.data.map(item => (
                 <ImageCard
                   key={item.img}
@@ -33,5 +33,5 @@ class BackgroundPage extends Component {
 
 };
 
-export default BackgroundPage;
+export default Images;
 

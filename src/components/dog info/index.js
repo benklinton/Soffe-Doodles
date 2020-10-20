@@ -10,6 +10,9 @@ import Lettie from './images/Lettie.jpg';
 import Cooper from './images/Cooper.jpg';
 import Rex from './images/Rex.jpg';
 import Ollie from './images/Ollie.jpg';
+import Oakley from './images/Oakley.jpg';
+import Lulu from './images/Lulu.jpg';
+import Della from './images/Della.jpg';
 
 function DogInfo() {
     return (
@@ -64,14 +67,13 @@ function DogInfo() {
                     </Col>
                     <Col className='font-2'>
                         <h1 className="mt-5" style={{ textAlign: "left" }}>Scout</h1>
-                        <h4>Scout is an AKC Bernese Mountain Dog.
-                        She loves to be outside, and playing in the snow.
-                        Scout has a short nose with a blocky head that makes her one good looking doggie.
-                        Scout is very smart and she loves to have her belly rubbed.
+                        <h4>
+                        Scout loves everyone. She loves to cuddle and do the Berenese lean. 
+                        She will want to be touching you when close. Whether shes in the yard playing or
+                        by my feet while I answer emails she is content. Scout is a direct import
+                        from Europe, with outstanding lineage. We love our Scout!
                         </h4>
-                        <br />
-                        <h4>Breed:  Bernese Mountain Dog</h4>
-                        <br />
+                        <h4>Breed: AKC Bernese Mountain Dog</h4>
                         <h4>Weight: 80 lbs</h4>
                     </Col>
                 </Row>
@@ -81,11 +83,10 @@ function DogInfo() {
                         <img src={Lettie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Lettie</h1>
+                        <h1 className="mt-5" style={{ textAlign: "left" }}>Lettie (Retired)</h1>
                         <h3>Lettie is an F1 Cockapoo. Her full name is Lettie Lue the Cockapoo.
                         She loves to be outside playing and running in the yard.
                         She has a beautiful Blue Merle coat which gives her the fancy coloring.
-                        Lettie is a fantastic mother who keeps her liter box clean and tidy.
                         She will line her puppies up in a row after feeding them before she takes a break.
                         </h3>
                         <br />
@@ -97,10 +98,10 @@ function DogInfo() {
                 <h1 className="text-center font-1">Goldendoodle Dame</h1>
                 <Row>
                     <Col lg={'auto'} xs={'auto'}>
-                        <img src="https://via.placeholder.com/400x400?text=Coming Soon" alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
+                        <img src={Oakley} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Oakley</h1>
+                        <h1 className="mt-5" style={{ textAlign: "left" }}>Oakley (Retired)</h1>
                         <h3>Oakley is an F1b Goldendoodle.
                         Annie Oakley is the pack leader at our house.
                         She has been a fantastic mother to her babies,
@@ -109,9 +110,53 @@ function DogInfo() {
                         and although we don't have favorites, she is at the top of the list.
                         </h3>
                         <br />
-                        <h3>Breed:  F1b Goldendoodle</h3>
+                        <h3>Breed: F1b Goldendoodle</h3>
                         <br />
                         <h3>Weight: 50 lbs </h3>
+                    </Col>
+                </Row>
+                <h1 className="text-center font-1"> Mini Bernadoodle Dames</h1>
+                <Row>
+                <Col lg={'auto'} xs={'auto'}>
+                        <img src={Lulu} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
+                    </Col>
+                    <Col className="font-2">
+                        <h1 className="mt-5" style={{ textAlign: "left" }}>Lulu</h1>
+                        <h3>Lulu is a Mini Bernadoodle.
+                        She is a daughter of Scout and sister to Della.
+                        We picked Lulu for our standard and mini Bernadoodle program because
+                        of her lineage, temperament and size.
+                        She has the perfect personality to produce calm, easy going, EXTRA lovable
+                        Bernadoodles that think they are a lap dog. One of the reasons we chose her 
+                        other then her calm temperament and long lineage of health was because of her
+                        personality. She has the perfect Bernadoodle personality bouncy, fun loving goofball
+                        that wants to please.
+                        </h3>
+                        <br />
+                        <h3>Breed: Mini Bernadoodle </h3>
+                        <br />
+                        <h3>Weight: 30 lbs </h3>
+                    </Col>
+                </Row>
+                <Row>
+                <Col lg={'auto'} xs={'auto'}>
+                        <img src={Della} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
+                    </Col>
+                    <Col className="font-2">
+                        <h1 className="mt-5" style={{ textAlign: "left" }}>Della</h1>
+                        <h3>Della is a Mini Bernadoodle.
+                        She is a daughter of Scout and sister to Lulu.
+                        We picked Della for our mini Bernadoodle program because of her lineage,
+                        confirmation and temperament. She comes from Scout who has generations of health
+                        tested parents and from a line of top quality European Bernese.
+                        Della is fun, loving, cuddly, sweet and loyal. Della loves everyone. She loves
+                        to sit right next to your feet. I call her my shadow. Anywhere I go she is right 
+                        there. She does the Berenese lean. If you are near she will want to be touching you.
+                        </h3>
+                        <br />
+                        <h3>Breed: Mini Bernadoodle </h3>
+                        <br />
+                        <h3>Weight: 30 lbs </h3>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1">Sires and Studs</h1>

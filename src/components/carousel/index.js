@@ -10,7 +10,7 @@ function Slides() {
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block"
+          className="d-block carosuel-image-size"
           src={Slide}
           alt="First slide"
         />
@@ -18,7 +18,7 @@ function Slides() {
 
       <Carousel.Item>
         <img
-          className="d-block"
+          className="d-block carosuel-image-size"
           src={Slide2}
           alt="Third slide"
         />
@@ -26,7 +26,7 @@ function Slides() {
 
       <Carousel.Item>
         <img
-          className="d-block"
+          className="d-block carosuel-image-size"
           src={Slide3}
           alt="Third slide"
         />

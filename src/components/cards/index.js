@@ -17,33 +17,33 @@ function Cards() {
                 <Card className="card-style">
                     <Card.Img variant="top" src={Puppy1} />
                     <Card.Body>
-                        <Card.Title>Application</Card.Title>
-                        <Card.Text>
+                        <Card.Title className="font-1">Application</Card.Title>
+                        <Card.Text className="font-2">
                             Interested in owning a puppy? Fill out our application
                         </Card.Text>
-                        <Button variant="outline-info" href="/application">Click Here</Button>
+                        <Button variant="outline-info" href="/application" className="font-1">Click Here</Button>
                     </Card.Body>
                 </Card>
 
                 <Card className="card-style">
                     <Card.Img variant="top" src={Puppy2} />
                     <Card.Body>
-                        <Card.Title>Available Puppies</Card.Title>
-                        <Card.Text>
+                        <Card.Title className="font-1">Available Puppies</Card.Title>
+                        <Card.Text className="font-2">
                             Check out our available puppies page for this season's litter
                         </Card.Text>
-                        <Button variant="outline-info" href='/avaliable-puppies'>Click Here</Button>
+                        <Button variant="outline-info" href='/avaliable-puppies' className="font-1">Click Here</Button>
                     </Card.Body>
                 </Card>
 
                 <Card className="card-style">
                     <Card.Img variant="top" src={Puppy3} />
                     <Card.Body>
-                        <Card.Title>Contact Us</Card.Title>
-                        <Card.Text>
+                        <Card.Title className='font-1'>Contact Us</Card.Title>
+                        <Card.Text className='font-2'>
                             Questions, comments, concerns? Drop us a line real quick
                         </Card.Text>
-                        <Button variant="outline-info">Click Here</Button>
+                        <Button variant="outline-info" className="font-1">Click Here</Button>
                     </Card.Body>
                 </Card>
                 </CardDeck>

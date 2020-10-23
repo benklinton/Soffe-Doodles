@@ -6,7 +6,7 @@ import Image from './images/Dog.jpg';
 
 function SocialMedia() {
     return (
-       <Container className="container-fluid content mb-4">
+       <Container className="container-fluid content mb-4 font-1">
             <h1>Follow Us On Social Media</h1>
             <Row className="d-flex justify-content-center">
             <div className=" col-12 mt-4"><img alt='' src={Image}></img></div>

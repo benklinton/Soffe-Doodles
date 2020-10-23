@@ -6,7 +6,7 @@ import Puppy from './images/Puppy.jpg';
 function Testimonial () {
     return (
         <Card className=" text-black custom-style">
-        <Card.Img src={Puppy} alt="Image" style={{display: "block"}} />
+        <Card.Img src={Puppy} alt="image of puppy" style={{height: "0%"}}/>
         <Card.ImgOverlay>
           <Card.Title className="font-1 custom-color font-size">See What People Are Saying</Card.Title>
           <Card.Text className='font-2 custom-color'>

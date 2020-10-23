@@ -34,13 +34,13 @@ function LitterInfo() {
             </header>
             <Container>
                 <Row>
-                    <Col id="margin-custom">
+                    <Col id="margin-custom"  xs={'auto'}>
                         <img src={Fern} id='dog-img' alt="pics of puppies"></img>
                         <div id='middle'>
                             <h1 id='text'> Fern is a beautiful AFC 40lbs standard poodle</h1>
                         </div>
                     </Col>
-                    <Col id="margin-custom">
+                    <Col id="margin-custom" xs={'auto'}>
                         <img src={Rex} id='dog-img' alt="pics of puppies"></img>
                         <div id='middle'>
                             <h1 id='text'>Rex is a handsome 27lbs F1 mini Goldendoodle </h1>
@@ -78,7 +78,7 @@ function LitterInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ textAlign: 'center', marginRight: "3rem" }} className="font-1">
+                    <Col style={{ textAlign: 'center', marginRight: "3rem" }} className="font-1" xs={'auto'} lg={'4'}>
                         <h1>
                             Willow + Desodo =
                         </h1>
@@ -94,13 +94,13 @@ function LitterInfo() {
                         <br/>
                         <Button variant="outline-info" href="/application">Application</Button>
                     </Col>
-                    <Col id='non-margin'>
+                    <Col id='non-margin' xs={'auto'}>
                         <img src={Willow} id='dog-img' alt="pics of puppies"></img>
                         <div id='middle'>
                             <h1 id='text'> Willow is a gentle AKC Standard Poodle</h1>
                         </div>
                     </Col>
-                    <Col id='non-margin'>
+                    <Col id='non-margin' xs={'auto'}>
                         <img src={Desodo} id='dog-img' alt="pics of puppies"></img>
                         <div id='middle'>
                             <h1 id='text'>Desodo is a dashing AKC Bernese Mountain Dog</h1>
@@ -122,10 +122,10 @@ function LitterInfo() {
                     </Col>
                 </Row>
                 <Row style={{ marginBottom: "6rem" }}>
-                    <Col >
-                        <img src={Scout} id='dog-img' alt="pics of puppies"></img>
+                    <Col sm={'auto'}>
+                        <img src={Scout} id='dog-img' alt="pics of puppies" className="img-fluid"></img>
                     </Col>
-                    <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop: "3rem" }} className="font-1">
+                    <Col style={{ textAlign: 'center', marginRight: "3rem", marginTop: "3rem" }} className="font-1" xs={'auto'} lg={6}>
                         <h2>
                             Scout our AKC Bernese Moutain Dog will be having her next litter spring of 2021
                         </h2>

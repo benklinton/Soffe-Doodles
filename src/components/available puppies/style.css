@@ -71,3 +71,24 @@
 .font-2 {
   font-family: 'Indie Flower', cursive;
 }
+
+@media screen and (max-width: 600px) {
+  #margin-break {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#margin-custom {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#margin-break {
+  margin-left: 45px;
+  margin-right: 15px;
+}
+#non-margin {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 8rem;
+  margin-bottom: 1.5rem;
+}
+}

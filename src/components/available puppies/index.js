@@ -78,7 +78,7 @@ function LitterInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col style={{ textAlign: 'center', marginRight: "3rem" }} className="font-1" xs={'auto'} lg={'4'}>
+                    <Col style={{ textAlign: 'center', marginRight: "3rem" }} className="font-1 md-responive" xs={'auto'} lg={'4'} md={'11'}>
                         <h1>
                             Willow + Desodo =
                         </h1>

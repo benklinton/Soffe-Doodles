@@ -64,16 +64,16 @@ function LitterInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy1} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy2} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy3} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy4} alt="pics of puppies"></img>
                     </Col>
                 </Row>
@@ -108,16 +108,16 @@ function LitterInfo() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy5} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy6} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy7} alt="pics of puppies"></img>
                     </Col>
-                    <Col id="margin-break">
+                    <Col id="margin-break" xs={'auto'}>
                         <img src={Puppy8} alt="pics of puppies"></img>
                     </Col>
                 </Row>

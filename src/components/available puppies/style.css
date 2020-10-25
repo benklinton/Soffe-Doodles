@@ -78,16 +78,16 @@
     margin-bottom: 4rem;
 }
 #margin-custom {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #margin-break {
-  margin-left: 45px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #non-margin {
-  margin-left: 20px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 8rem;
   margin-bottom: 1.5rem;
 }

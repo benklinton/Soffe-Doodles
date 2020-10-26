@@ -22,3 +22,12 @@
         background-size: cover;
         background-attachment: scroll;
 }
+
+@media screen and (max-width: 600px) {
+    .css-reset {
+        margin-top: 0rem!important;
+    }
+    .mobile-margins {
+        margin-bottom: 3rem;
+    }
+}

@@ -34,7 +34,7 @@ function DogInfo() {
                         <img src={Fern} alt='pics of dogs' className=" mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left", fontWeight:"bold" }}>Fern</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left", fontWeight:"bold" }}>Fern</h1>
                         <h3>Fern is an AKC Standard Poodle who loves to retrieve her yard toys.
                         She has a lot of energy, extremely soft fur and is very loving around the family and friends.
                         She adores the water and would play out in the yard all day.</h3>
@@ -49,7 +49,7 @@ function DogInfo() {
                         <img src={Willow} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Willow</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Willow</h1>
                         <h4>Willow is an AKC Royal Sable Poodle.
                         Her full name is Willomena Fancy Prance because she is very dainty and loves to prance around the yard like a beauty queen.
                         She has a gentle bite and is very affectionate with children and other dogs.
@@ -57,7 +57,7 @@ function DogInfo() {
                         <br />
                         <h4>Breed:  AKC Royal Poodle</h4>
                         <br />
-                        <h4>Weight: 55 lbs</h4>
+                        <h4 className="mobile-margins">Weight: 55 lbs</h4>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1">Bernese Mountain Dog Dame</h1>
@@ -66,7 +66,7 @@ function DogInfo() {
                         <img src={Scout} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className='font-2'>
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Scout</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Scout</h1>
                         <h4>
                         Scout loves everyone. She loves to cuddle and do the Berenese lean. 
                         She will want to be touching you when close. Whether shes in the yard playing or
@@ -74,7 +74,7 @@ function DogInfo() {
                         from Europe, with outstanding lineage. We love our Scout!
                         </h4>
                         <h4>Breed: AKC Bernese Mountain Dog</h4>
-                        <h4>Weight: 80 lbs</h4>
+                        <h4 className='mobile-margins'>Weight: 80 lbs</h4>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1">Cockapoo Dame</h1>
@@ -83,7 +83,7 @@ function DogInfo() {
                         <img src={Lettie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Lettie (Retired)</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Lettie (Retired)</h1>
                         <h3>Lettie is an F1 Cockapoo. Her full name is Lettie Lue the Cockapoo.
                         She loves to be outside playing and running in the yard.
                         She has a beautiful Blue Merle coat which gives her the fancy coloring.
@@ -92,7 +92,7 @@ function DogInfo() {
                         <br />
                         <h3>Breed:  F1 Cockapoo</h3>
                         <br />
-                        <h3>Weight: 18 lbs </h3>
+                        <h3 className="mobile-margins">Weight: 18 lbs </h3>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1">Goldendoodle Dame</h1>
@@ -101,7 +101,7 @@ function DogInfo() {
                         <img src={Oakley} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Oakley (Retired)</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Oakley (Retired)</h1>
                         <h3>Oakley is an F1b Goldendoodle.
                         Annie Oakley is the pack leader at our house.
                         She has been a fantastic mother to her babies,
@@ -112,7 +112,7 @@ function DogInfo() {
                         <br />
                         <h3>Breed: F1b Goldendoodle</h3>
                         <br />
-                        <h3>Weight: 50 lbs </h3>
+                        <h3 className="mobile-margins">Weight: 50 lbs </h3>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1"> Mini Bernadoodle Dames</h1>
@@ -121,7 +121,7 @@ function DogInfo() {
                         <img src={Lulu} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Lulu</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Lulu</h1>
                         <h3>Lulu is a Mini Bernadoodle.
                         She is a daughter of Scout and sister to Della.
                         We picked Lulu for our standard and mini Bernadoodle program because
@@ -143,7 +143,7 @@ function DogInfo() {
                         <img src={Della} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Della</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Della</h1>
                         <h3>Della is a Mini Bernadoodle.
                         She is a daughter of Scout and sister to Lulu.
                         We picked Della for our mini Bernadoodle program because of her lineage,
@@ -156,7 +156,7 @@ function DogInfo() {
                         <br />
                         <h3>Breed: Mini Bernadoodle </h3>
                         <br />
-                        <h3>Weight: 30 lbs </h3>
+                        <h3 className="mobile-margins">Weight: 30 lbs </h3>
                     </Col>
                 </Row>
                 <h1 className="text-center font-1">Sires and Studs</h1>
@@ -165,7 +165,7 @@ function DogInfo() {
                         <img src={Cooper} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Cooper</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Cooper</h1>
                         <h3>Cooper is an F1b Cockapoo.
                         His full name is Marshall Jed Cooper, he in not large, but he is in charge.
                         With five girls to look after he is always barking out orders to the ladies.
@@ -182,7 +182,7 @@ function DogInfo() {
                         <img src={Rex} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Rex</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Rex</h1>
                         <h3>T-Rex is a Mini Red Goldendoodle with a white chin and chest.
                         He is a fantastic dog that loves to play fetch, run the yard, and keep up with the girls.
                         He lets Cooper be in charge, but knows that one day he will have to keep all the girls safe.
@@ -199,7 +199,7 @@ function DogInfo() {
                         <img src={Ollie} alt='pics of dogs' className="mt-5 mb-5 img-responive"></img>
                     </Col>
                     <Col className="font-2">
-                        <h1 className="mt-5" style={{ textAlign: "left" }}>Ollie</h1>
+                        <h1 className="mt-5 css-reset" style={{ textAlign: "left" }}>Ollie</h1>
                         <h3>Oliver Twist is an AKC Toy Poodle who is soon to be added to the SoffeDoodles stud line.
                         He is a little too young now, but his tri colors of tan, black and white, along with his small size will make him popular when he comes of age.
                         Ollie is a spunky little guy with a big heart.
@@ -207,7 +207,7 @@ function DogInfo() {
                         <br />
                         <h3>Breed:  AKC Toy Poodle</h3>
                         <br />
-                        <h3>Weight: 5 lbs </h3>
+                        <h3 className='mobile-margins'>Weight: 5 lbs </h3>
                     </Col>
                 </Row>
             </Container>

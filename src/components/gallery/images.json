@@ -1,29 +1,38 @@
 [
     {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
+        "id": 1,
+        "img": "Dog1.jpg" 
+    },
+    {   
+        "id": 2,
+        "img": "Dog2.jpg" 
+    },
+    {   
+        "id": 3,
+        "img": "Dog3.jpg" 
+    },
+    {   
+        "id": 4,
+        "img": "Dog4.jpg" 
     },
     {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
+        "id": 5,
+        "img": "Dog5.jpg" 
     },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
+    {  
+        "id": 6,
+        "img": "Dog6.jpg" 
     },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
+    {   
+        "id": 7,
+        "img": "Dog7.jpg" 
     },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
+    {   
+        "id": 8,
+        "img": "Dog8.jpg" 
     },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
-    },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
-    },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon" 
-    },
-    {
-        "img": "https://via.placeholder.com/250x250?text=Coming Soon"
+    {   
+        "id": 9,
+        "img": "Dog9.jpg"
     }
 ]

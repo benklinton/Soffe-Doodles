@@ -5,7 +5,7 @@ function ImageCard (props) {
     return (
         <div className='img'>
           <img 
-            src={`${props.img}`} 
+            src={`images/${props.img}`} 
             alt='Images of Dogs'>
           </img>
         </div>

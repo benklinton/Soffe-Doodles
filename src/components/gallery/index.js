@@ -19,7 +19,7 @@ class Images extends Component {
             <h1 className="title font-1">Dog Gallery</h1>
               {this.state.data.map(item => (
                 <ImageCard
-                  key={item.img}
+                  key={item.id}
                   img={item.img}
 
                 />

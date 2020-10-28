@@ -1,3 +1,16 @@
 .bg-custom {
     background-color: #364967;
 }
+
+.dropdown-menu.show {
+    background-color: #364967 ;
+}
+
+.dropdown-item {
+    color: white;
+    background-color: #364967 ;
+}
+
+.dropdown-item:hover {
+    background-color: #364967 ;
+}

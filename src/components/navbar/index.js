@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import { BrowserRouter as Router, } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Logo from './images/Logo.png';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation() {
   return (
@@ -36,9 +37,14 @@ function Navigation() {
               <Nav.Item>
                 <Nav.Link href="/avaliable-puppies">Avaliable Puppies</Nav.Link>
               </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/health">Health Guarantee</Nav.Link>
-              </Nav.Item>
+              <NavDropdown title="More" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/health"> Health Guarantee</NavDropdown.Item>
+                <NavDropdown.Item href="/contact"> Contact Us</NavDropdown.Item>
+                <NavDropdown.Item href="/faq"> FAQ</NavDropdown.Item>
+                <NavDropdown.Item href="/training">Training</NavDropdown.Item>
+                <NavDropdown.Item href="/adoption">How to Adopt</NavDropdown.Item>
+                <NavDropdown.Item href="/about"> How We Do It</NavDropdown.Item>
+              </NavDropdown>
             </Router>
           </ul>
         </Navbar.Collapse>

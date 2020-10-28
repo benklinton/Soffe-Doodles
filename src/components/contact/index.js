@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 function Contact() {
     return (
         <>
-            <header className='masthead bg-image'>
+            <header className='masthead contact-bg-image'>
                 <Container className='h-100'>
                     <Row className='h-100 align-items-center'>
                         <div className='col-lg-12'>

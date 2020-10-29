@@ -44,6 +44,7 @@ function Navigation() {
                 <NavDropdown.Item href="/training">Training</NavDropdown.Item>
                 <NavDropdown.Item href="/adoption">How to Adopt</NavDropdown.Item>
                 <NavDropdown.Item href="/about"> How We Do It</NavDropdown.Item>
+                <NavDropdown.Item href="/products"> Products</NavDropdown.Item>
               </NavDropdown>
             </Router>
           </ul>

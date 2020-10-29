@@ -43,7 +43,7 @@ function Cards() {
                         <Card.Text className='font-2'>
                             Questions, comments, concerns? Drop us a line real quick
                         </Card.Text>
-                        <Button variant="outline-info" className="font-1">Click Here</Button>
+                        <Button variant="outline-info" href='/contact' className="font-1">Click Here</Button>
                     </Card.Body>
                 </Card>
                 </CardDeck>
